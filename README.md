@@ -13,7 +13,22 @@
 4. Run the script.
 
 # Notes
-Original instance follows Lua pattern matching format, which is similar to regex.
+- Original instance follows Lua pattern matching format, which is similar to regex.
+- The *file extension*, *folders* and *commands* used by the script can be changed manually in this block:
+```lua
+-- File extension
+ext = '.txt'
+-- Folder names
+local folder = {
+	original_file = 'src',
+	modifications = 'mod',
+	result_file = 'res'
+}
+-- Commands (currently for windows)
+local cmd = {
+	listFiles = 'cd && dir '..folder.original_file..'\\ *'..ext,
+}
+```
 
 # Example
 src > test.txt ::
