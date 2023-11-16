@@ -27,3 +27,4 @@ mod > test.txt ::
 human==user;computer==machine
 consuming==being useful;data %(sometimes%)==to everyone
 ```
+[@nyanxian](https://github.com/nyanxian)
