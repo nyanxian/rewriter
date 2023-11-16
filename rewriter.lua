@@ -23,7 +23,7 @@ mod > test.txt ::
 human==user;computer==machine
 consuming==being useful;data %(sometimes%)==to everyone
 
-@nyanxian [https://github.com/nyanxian]
+[@nyanxian](https://github.com/nyanxian)
 --]]
 
 -- File extension
@@ -36,7 +36,6 @@ local folder = {
 }
 -- Commands (currently for windows)
 local cmd = {
-	currentDir = 'cd',
 	listFiles = 'cd && dir '..folder.original_file..'\\ *'..ext,
 }
 -- Find all target files
