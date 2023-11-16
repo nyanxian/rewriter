@@ -1,3 +1,5 @@
+⚠ *(Please note that the commands used by the script are written for Windows, you can modify them manually in the `cmd` table.)*
+
 # References
 - src - Source (original) file folder
 - mod - Source text pattern modifications folder
